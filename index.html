@@ -51,6 +51,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">  
     <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png"> 
     <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC9CwMV3aCQwVSLmGBGSrPdUnAB36cQhaI",
+    authDomain: "judgement-2bc96.firebaseapp.com",
+    databaseURL: "https://judgement-2bc96.firebaseio.com",
+    projectId: "judgement-2bc96",
+    storageBucket: "judgement-2bc96.appspot.com",
+    messagingSenderId: "579905500462",
+    appId: "1:579905500462:web:bca2e7221b1711060476bf",
+    measurementId: "G-E9QTE1Y350"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
    </head>
 
 <body id="page-top">
